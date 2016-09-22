@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/michaelenstone/AndroidstudioProjects/SiMon/app/build/intermediates/res/merged/debug/menu/report_items_menu.xml",
+        "source": "/Users/michaelenstone/AndroidstudioProjects/SiMon/app/src/main/res/menu/report_items_menu.xml"
+    },
+    {
+        "merged": "/Users/michaelenstone/AndroidstudioProjects/SiMon/app/build/intermediates/res/merged/debug/menu/reports_menu.xml",
+        "source": "/Users/michaelenstone/AndroidstudioProjects/SiMon/app/src/main/res/menu/reports_menu.xml"
+    }
+]

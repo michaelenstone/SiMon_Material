@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="uk.co.simon.app.ActivityReports" >
+
+    <item
+        android:id="@+id/reportUpload"
+        android:icon="@drawable/ic_action_upload"
+        android:title="@string/contextUpload"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/reportPDF"
+        android:icon="@drawable/ic_action_pdf"
+        android:title="@string/contextCreatePDF"
+        app:showAsAction="always"/>
+
+</menu>

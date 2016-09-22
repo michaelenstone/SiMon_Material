@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/Users/michaelenstone/AndroidstudioProjects/SiMon/app/build/intermediates/res/merged/debug/drawable-ldpi/ic_action_left.png",
+        "source": "/Users/michaelenstone/AndroidstudioProjects/SiMon/app/src/main/res/drawable-ldpi/ic_action_left.png"
+    },
+    {
+        "merged": "/Users/michaelenstone/AndroidstudioProjects/SiMon/app/build/intermediates/res/merged/debug/drawable-ldpi/ic_action_settings.png",
+        "source": "/Users/michaelenstone/AndroidstudioProjects/SiMon/app/src/main/res/drawable-ldpi/ic_action_settings.png"
+    },
+    {
+        "merged": "/Users/michaelenstone/AndroidstudioProjects/SiMon/app/build/intermediates/res/merged/debug/drawable-ldpi/ic_action_pdf.png",
+        "source": "/Users/michaelenstone/AndroidstudioProjects/SiMon/app/src/main/res/drawable-ldpi/ic_action_pdf.png"
+    },
+    {
+        "merged": "/Users/michaelenstone/AndroidstudioProjects/SiMon/app/build/intermediates/res/merged/debug/drawable-ldpi/ic_action_reorder.png",
+        "source": "/Users/michaelenstone/AndroidstudioProjects/SiMon/app/src/main/res/drawable-ldpi/ic_action_reorder.png"
+    },
+    {
+        "merged": "/Users/michaelenstone/AndroidstudioProjects/SiMon/app/build/intermediates/res/merged/debug/drawable-ldpi/ic_action_filter.png",
+        "source": "/Users/michaelenstone/AndroidstudioProjects/SiMon/app/src/main/res/drawable-ldpi/ic_action_filter.png"
+    },
+    {
+        "merged": "/Users/michaelenstone/AndroidstudioProjects/SiMon/app/build/intermediates/res/merged/debug/drawable-ldpi/ic_action_edit.png",
+        "source": "/Users/michaelenstone/AndroidstudioProjects/SiMon/app/src/main/res/drawable-ldpi/ic_action_edit.png"
+    },
+    {
+        "merged": "/Users/michaelenstone/AndroidstudioProjects/SiMon/app/build/intermediates/res/merged/debug/drawable-ldpi/ic_action_refresh.png",
+        "source": "/Users/michaelenstone/AndroidstudioProjects/SiMon/app/src/main/res/drawable-ldpi/ic_action_refresh.png"
+    },
+    {
+        "merged": "/Users/michaelenstone/AndroidstudioProjects/SiMon/app/build/intermediates/res/merged/debug/drawable-ldpi/ic_action_upload.png",
+        "source": "/Users/michaelenstone/AndroidstudioProjects/SiMon/app/src/main/res/drawable-ldpi/ic_action_upload.png"
+    },
+    {
+        "merged": "/Users/michaelenstone/AndroidstudioProjects/SiMon/app/build/intermediates/res/merged/debug/drawable-ldpi/ic_action_delete.png",
+        "source": "/Users/michaelenstone/AndroidstudioProjects/SiMon/app/src/main/res/drawable-ldpi/ic_action_delete.png"
+    }
+]

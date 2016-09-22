@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="uk.co.simon.app.ActivityReports" >
+
+    <item android:id="@+id/menuFilter"
+        android:icon="@drawable/ic_action_filter"
+        android:title="@string/menuFilter"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/menuReorder"
+        android:icon="@drawable/ic_action_reorder"
+        android:title="@string/menuReorder"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/menuSync"
+        android:icon="@drawable/ic_action_refresh"
+        android:title="@string/menuSync"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menuSettings"
+        android:icon="@drawable/ic_action_settings"
+        android:title="@string/menuSettings"
+        app:showAsAction="ifRoom"/>
+
+
+    <item
+        android:id="@+id/menuLogout"
+        android:title="@string/menuLogout"
+        app:showAsAction="never"/>
+</menu>

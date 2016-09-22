@@ -1,0 +1,115 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp">
+
+    <LinearLayout
+        android:id="@+id/dailyProgressProjectLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:padding="0dp"
+        android:layout_margin="0dp">
+
+        <TextView
+            android:id="@+id/dailyProgressProjectText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:text="@string/dailyProgressProject"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:padding="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="0dp"
+            android:textColor="@color/black" />
+
+        <Spinner
+            android:id="@+id/dailyProgressProjectSpinner"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:layout_weight="0.7" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/dailyProgressDateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dailyProgressProjectLayout"
+        android:gravity="center"
+        android:text="@string/dailyProgressDate"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp" />
+
+    <EditText
+        android:id="@+id/dailyProgressSupervisor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dailyProgressDateButton"
+        android:ems="10"
+        android:hint="@string/dailyProgressSupervisor"
+        android:inputType="text"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="5dp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/dailyProgressReportRefEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dailyProgressSupervisor"
+        android:hint="@string/dailyProgressReportRef"
+        android:inputType="text"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="5dp" />
+
+    <LinearLayout
+        android:id="@+id/dailyProgressWeatherLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="false"
+        android:layout_below="@id/dailyProgressReportRefEditText"
+        android:layout_margin="0dp" >
+
+        <EditText
+            android:id="@+id/dailyProgressWeatherEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.55"
+            android:ems="10"
+            android:hint="@string/dailyProgressWeather"
+            android:inputType="text"
+            android:layout_marginRight="5dp" />
+
+        <EditText
+            android:id="@+id/dailyProgressTempEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="0.25"
+            android:ems="10"
+            android:hint="@string/dailyProgressTemp"
+            android:inputType="numberDecimal" />
+
+        <Spinner
+            android:id="@+id/dailyProgressTempSpinner"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="0dp"
+            android:layout_weight="0.2"
+            android:entries="@array/dailyProgressTempType" />
+    </LinearLayout>
+
+</RelativeLayout>

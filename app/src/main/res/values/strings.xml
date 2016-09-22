@@ -1,0 +1,168 @@
+<resources>
+
+    <string name="app_name">SiMon</string>
+    
+    <!-- Strings for Menus -->
+    <string name="menuSettings">Settings</string>
+    <string name="menuHome">Home</string>
+    <string name="menuChangeReportType">Change Report Type</string>    
+    <string name="menuLogout">Logout</string>    
+    <string name="menuSync">Sync Projects and Locations</string>
+    <string name="menuReorder">Reorder Reports</string>
+    <string name="menuFilter">Filter Reports</string>
+    <string name="messageSync">Syncing</string>
+    <string name="menuNoProjects">Add Projects</string>
+    <string name="menuGoToWeb">Go to Website</string>
+
+    <string name="reorderTitle">Re-order Reports</string>
+    <string-array name="reorderArray">
+        <item>Date Ascending</item>
+        <item>Date Descending</item>
+        <item>Project Ascending</item>
+        <item>Project Descending</item>
+    </string-array>
+
+    <string name="filterTitle">Filter by Project</string>
+    <string name="filterCancel">Cancel Filter</string>
+
+    <!-- Strings for Preferences -->
+    <string name="preferencesName">Name</string>
+    <string name="preferencesNameSummary">Enter Name to be used in Author Field on Submissions</string>
+    <string name="preferencesEmail">Email</string>
+    <string name="preferencesEmailSummary">Enter the Email you use as a username for SiMon online</string>
+    <string name="preferencesPassword">Password</string>
+    <string name="preferencesPasswordSummary">Enter the Password you use to login to SiMon online</string>
+    <string name="preferencesApplicationSync">Auto-sync Projects &amp; Locations</string>
+    <string name="preferencesApplicationSyncSummary">Select this option to automatically sync projects and locations on start - THIS OPTION MAY INCUR ADDITIONAL DATA USAGE COSTS</string>
+    <string name="preferencesAutoFocus">Auto Focus Camera</string>
+    <string name="preferencesAutoFocusSummary">If you have issues with the focus when taking images this setting may help</string>
+    <string name="preferencesSelectLogo">Logo</string>
+    <string name="preferencesSelectLogoSummary">Select a Logo for use in PDF reports</string>
+      
+    <!-- Strings for Dialogs -->
+    <string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_cancel">Cancel</string> 
+    <string name="date_dialog_title">Set Date</string> 
+    
+    <!-- Strings for Context Menus -->    
+    <string name="contextProgressReports">Progress Reports</string>
+    <string name="contextSiteVisitReports">Site Visit Reports</string>
+    <string name="contextEdit">Edit</string>
+    <string name="contextDelete">Delete</string>
+    <string name="contextCreatePDF">Create PDF</string>
+    <string name="contextUpdatePDF">Rebuild PDF</string>
+    <string name="contextOpenPDF">Open PDF</string>
+    <string name="contextUpload">Upload Report</string>
+    <string name="contextView">View</string>
+
+    <!-- Strings for Home Activity -->
+    <string name="title_activity_home">SiMon - Site Monitor</string>
+    <string name="homeButtonReports">Reports</string>
+    <string name="homeButtonSettings">Settings</string>
+    <string name="homeButtonSync">Sync Projects and Locations</string>
+    <string name="homeLogoDescription">Company Logo</string>
+    <string name="homeText">Welcome to SiMon</string>
+    <string name="firstHomeText">Welcome to SiMon.  To start using SiMon please add a project via the website</string>
+
+    <!-- Strings for Report Header -->
+    <string name="dailyProgressProject">Project:</string>
+    <string name="dailyProgressSelectProject">Select Project</string>
+    <string name="dailyProgressClickHere">Click Here</string>
+    <string name="dailyProgressDate">Date</string>
+    <string name="dailyProgressReportRef">Report Ref</string>
+    <string name="dailyProgressWeather">Weather</string>
+    <string name="dailyProgressTemp">Temp</string>
+    <string name="dailyProgressSupervisor">Report Author</string>
+    <string name="dailyProgressSVRRef">/SVR/</string>
+    <string name="dailyProgressPRRef">/PR/</string>
+    <string-array name="dailyProgressTempType">
+        <item>&#xb0;C</item>
+        <item>&#xb0;F</item>
+    </string-array>
+    <string name="dailyProgressSaveChanges">Save</string>
+    <string name="dailyProgressCancelChanges">Discard</string>
+
+    <!-- Strings for Daily Progress Report Item Fragment -->
+    <string name="dailyProgressAddItem">Add Item</string>
+    <string name="dailyProgressAddItemInstruction">Click to add an Item</string>
+    <string name="dailyProgressLocation">Location</string>
+    <string name="dailyProgressActivity">Activity</string>
+    <string name="dailyProgressProgress">%Progressed</string>
+    <string name="dailyProgressDescription">Description</string>
+    <string name="dailyProgressTakePhoto">Take Photo</string>
+    <string name="dailyProgressAttachPhoto">Attach Photo</string>
+    <string name="dailyProgressItemTitle">Enter Details</string>
+    <string name="dailyProgressUpdateItemTitle">Update Details</string>
+    <string name="dailyProgressItemOK">Save Item</string>
+    <string name="deleteReportItemDialogTitle">Delete Item</string>
+    <string name="deleteReportItemDialogText">Confirm Delete</string>
+    <string name="photoMenuTitle">Photo Menu</string>
+    <string name="photoMenuText">Choose Photo Option</string>
+    <string name="photoMenuView">View Photo</string>
+    <string name="photoMenuDelete">Delete Photo</string>
+
+    <string-array name="dailyProgressOnTimeSpinner">
+        <item>Ahead</item>
+        <item>On Time</item>
+        <item>Behind</item>
+    </string-array>
+
+    <!-- Strings for Activity Titles -->
+    <string name="title_activity_progress_report">Progress Report</string>
+    <string name="title_activity_site_visit_report">Site Visit Report</string>
+    <string name="title_activity_existing_reports">Existing Reports</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_dialog_fragment_project_entry">DialogFragmentProjectEntry</string> 
+
+    <!-- Strings for Settings Menu -->
+    <string name="settingsMenuManageProjects">Manage Projects</string>
+    <string name="title_activity_dialog_fragment_date">DialogFragmentDate</string>
+
+    <!-- Strings for Reports Manager -->
+    <string name="title_activity_reports">Manage Reports</string>
+    <string name="reportsManagerTitle">Reports</string>
+    <string name="newReport">New</string>
+    <string name="newReportDialogTitle">New Report</string>
+    <string name="newReportDialogText">Select Type of Report</string>
+    <string name="deleteReportDialogTitle">Delete Report</string>
+    <string name="deleteReportDialogText">Confirm Delete. Note: If this report has been uploaded a copy will remain on the server accessible via your normal login</string>
+    <string name="uploadReportDialogTitle">Upload Report</string>
+    <string name="uploadReportDialogText">Uploading Report&#8230;</string>
+    
+    <!-- Strings for Take Photo Activity -->
+    <string name="title_activity_photos">Take Photo</string>
+    <string name="takePhotoTitle">Take Photo</string>
+    <string name="takePhotoImageView">Preview of Camera</string>
+    <string name="takePhotoButton">Take Photo</string>
+    <string name="keepPhotoButton">Keep Photo</string>
+    <string name="discardPhotoButton">Discard Photo</string>
+    
+    <!--  Strings for PDF Generation -->
+    <string name="createPDFDialogTitle">PDFCreator</string>
+    <string name="createPDFDialogText">Select PDF option below:</string>
+    <string name="pdfProgressReportTitle">Progress Report</string>
+    <string name="pdfSiteVisitReportTitle">Site Visit Report</string>
+    <string name="pdfItem">Item</string>
+    <string name="pdfProgress">Progress</string>
+    <string name="pdfSuccess">PDF Created</string>
+    <string name="pdfFailure">Could not create PDF</string>
+    
+    <!--  Error Messages -->
+    <string name="errPhotoStorageLimit">Photo Storage Limit has been reached please remove some images</string>
+    <string name="errPDFDelete">Old PDF could not be deleted</string>
+    <string name="errPhotoFileDoesntExist">Photo File doesn\'t exist.  Photo Reference Removed</string>
+    <string name="errFileNotFound">File not found</string>
+    <string name="errCreatingDirectory">Error Creating Directory. Check Permissions</string>
+    
+    <!--  Messages -->
+    <string name="msgSyncSuccess">Sync Successful</string>
+    <string name="msgSyncFail">Sync Failed</string>
+    <string name="msgUploadSuccess">Upload Successful</string>
+    <string name="msgUploadFail">Upload Failed</string>
+    <string name="msgPhotoDeleted">Photo Deleted</string>
+    <string name="msgReportItemDeleted">Report Item Deleted</string>
+    <string name="msgReportDeleted">Report Deleted</string>
+    <string name="msgAddProjects">Please log in to the website to add projects. If you have already added a project via the website please sync projects and locations.  </string>
+    <string name="msgNoPDFReader">No PDF Reader Installed</string>
+
+</resources>

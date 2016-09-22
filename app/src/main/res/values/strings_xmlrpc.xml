@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="XmlRpcClient.NetworkError">A network error occurred.</string>
+    <string name="XmlRpcClient.ParseError">The response could not be parsed.</string>
+    <string name="XmlRpcClient.Encoding">UTF-8</string>
+    <string name="XmlRpcServlet.Encoding">UTF-8</string>
+    <string name="XmlRpcServlet.ServiceClassNotFound">The service class cannot not found:</string>
+    <string name="XmlRpcServlet.ServiceClassNotInstantiable">The service class cannot be instantiated:</string>
+    <string name="XmlRpcServlet.ServiceClassNotAccessible">The service class is not accessible:</string>
+    <string name="XmlRpcServlet.InvalidServicesFormat">The services parameter format is invalid:</string>
+    <string name="XmlRpcSerializer.UnsupportedType">Could not serialize response. Unsupported type:</string>
+    <string name="XmlRpcValue.IllegalDate">Illegal date encountered:</string>
+    <string name="XmlRpcValue.UnexpectedNestedValue">Nested value encountered for a non-composite value</string>
+    <string name="XmlRpcParser.ReaderInstantiationError">Could not instantiate XMLReader parser</string>
+    <string name="XmlRpcParser.ParsingError">A problem occured during parsing</string>
+    <string name="XmlRpcDispatcher.HandlerNotFound">The specified handler cannot be found</string>
+    <string name="XmlRpcDispatcher.InvalidMethodNameFormat">Invalid method name format</string>
+    <string name="XmlRpcDispatcher.InvocationCancelled">The invocation was cancelled by a processor object</string>
+    <string name="XmlRpcDispatcher.ErrorSendingFault">Could not send fault back to client due to communication problems</string>
+    <string name="Base64.InvalidDataLength">Error decoding BASE64 element: Miscalculated data length</string>
+    <string name="ReflectiveInvocationHandler.MethodNotPublished">The method has not been published or does not exist</string>
+    <string name="ReflectiveInvocationHandler.MethodDontExist">The method cannot be found. Signature:</string>
+    <string name="IntrospectingSerializer.SerializationError">Could not serialize property:</string>
+</resources>

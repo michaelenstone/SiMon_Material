@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="uk.co.simon.app.ActivityReports">
+
+    <include
+        layout="@layout/reports_toolbar"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/reportsList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="false"
+        android:layout_below="@+id/reports_toolbar" />
+
+    <com.software.shell.fab.ActionButton
+        android:id="@+id/action_button"
+        android:onClick="onClickReports"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:layout_marginBottom="@dimen/fab_margin"
+        fab:button_color="@color/accent"
+        fab:image="@drawable/fab_plus_icon"
+        fab:image_size="34dp"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="title_activity_activity_login">SiMon</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_register">Register</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="login_progress_signing_in">Signing in&#8230;</string>
+    <string name="error_invalid_email">Invalid email address</string>
+    <string name="error_invalid_password">The password is too short</string>
+    <string name="error_incorrect_password">The password and/or username are incorrect</string>
+    <string name="error_password_field_required">A password is required</string>
+    <string name="error_email_field_required">An email address is required</string>
+    <string name="login_request">Please Login</string>
+
+</resources>

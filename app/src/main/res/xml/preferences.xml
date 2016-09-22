@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="User" >
+        <EditTextPreference
+            android:key="NamePref"
+            android:summary="@string/preferencesNameSummary"
+            android:title="@string/preferencesName" />
+        <EditTextPreference
+            android:key="EmailPref"
+            android:summary="@string/preferencesEmailSummary"
+            android:title="@string/preferencesEmail" />
+        <EditTextPreference
+            android:inputType="textPassword"
+            android:key="PasswordPref"
+            android:summary="@string/preferencesPasswordSummary"
+            android:title="@string/preferencesPassword" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="SyncPref"
+            android:summary="@string/preferencesApplicationSyncSummary"
+            android:title="@string/preferencesApplicationSync" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="autoFocusPref"
+            android:summary="@string/preferencesAutoFocusSummary"
+            android:title="@string/preferencesAutoFocus" />
+        <Preference
+            android:summary="@string/preferencesSelectLogoSummary"
+            android:title="@string/preferencesSelectLogo"
+            android:key="imagePicker" 
+    	/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color
+        name="primary"
+        >#d3d3d3</color>
+    <color
+        name="primary_dark"
+        >#464646</color>
+    <color
+        name="accent"
+        >#ffcc00</color>
+    <color
+        name="white"
+        >#ffffff</color>
+    <color
+        name="black"
+        >#000000</color>
+    <color
+        name="one"
+        >#2196F3</color>
+    <color
+        name="two"
+        >#ffcc00</color>
+    <color
+        name="three"
+        >#F44336</color>
+    <color
+        name="four"
+        >#009688</color>
+    <color
+        name="five"
+        >#4CAF50</color>
+    <color
+        name="red"
+        >#ff0000</color>
+</resources>
